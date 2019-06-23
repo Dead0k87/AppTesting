@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "basic",
+      "type": "com.springboot.configuration.BasicConfiguration",
+      "sourceType": "com.springboot.configuration.BasicConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "basic.message",
+      "type": "java.lang.String",
+      "sourceType": "com.springboot.configuration.BasicConfiguration"
+    },
+    {
+      "name": "basic.number",
+      "type": "java.lang.Integer",
+      "sourceType": "com.springboot.configuration.BasicConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "basic.value",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.springboot.configuration.BasicConfiguration",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
